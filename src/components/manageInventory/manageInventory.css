@@ -1,0 +1,16 @@
+.manage-inventory-table th {
+    width:500px;
+    border:solid 1px;
+    background-color:#dddddd ;
+  }
+
+.manage-inventory-table td {
+    width:300px;
+    border:solid 1px;
+   margin-left: 10px;
+   text-align:center;
+    
+  }
+.manage-inventory-table{
+    border:solid 1px;
+}

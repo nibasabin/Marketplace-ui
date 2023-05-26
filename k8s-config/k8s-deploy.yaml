@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: marketplace-ui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: marketplace-ui
+  template:
+    metadata:
+      labels:
+        app: marketplace-ui
+    spec:
+      containers:
+        - image: registry.galvanizelabs.net/cohorts/sf/sdi-caas-may-15-2023/capstone/team-3/marketplace-ui:latest
+          name: marketplace-ui
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+          env:
+            - name: REACT_APP_MARKETPLACE_API_BASE_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: marketplace-ui-configmap
+                  key: base_url
+                  optional: false
+
+      imagePullSecrets: # Be sure the token name matches what you created on K8s
+        - name: sabin-registry-credentials

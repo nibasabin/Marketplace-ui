@@ -1,0 +1,40 @@
+.user-dashboard-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-bar{
+  margin: 25px;
+  font-weight: bold;
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  .header{
+    color: #1122ec;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 25px;
+    justify-content: center;
+    display: flex;
+    column-gap: 200px;
+  }

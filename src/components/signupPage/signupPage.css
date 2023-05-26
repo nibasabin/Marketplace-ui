@@ -1,0 +1,14 @@
+.signup-page-container{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.signup-page-buttons{
+    margin: 25px;
+    gap:10px;
+    display: flex;
+    flex-direction: row;
+}

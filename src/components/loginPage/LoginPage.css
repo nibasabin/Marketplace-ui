@@ -1,0 +1,26 @@
+.loginPageContainer{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.registerButton{
+    background: none;
+    border:none;
+    color:blue
+}
+.registerButton:hover{
+    color:green;
+}
+
+.submitButton{
+ margin-top:25px;
+margin-bottom: 10px;
+}
+.errormsg{
+    color:red;
+    margin-top: 5px;
+    font-weight: bold;
+}

@@ -1,0 +1,34 @@
+.create-item-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    border:solid 1px;
+    padding:10px;
+    background-color: antiquewhite;
+    width:100%;
+    
+}
+.form-input{
+    margin-left: 15px;
+}
+.form-label{
+    width:200px;
+}
+.create-item-form{
+  display:inline-table
+}
+.create-item-footer{
+    display:flex;
+    margin:50px;
+    column-gap:25px;
+    justify-content: center;
+    
+}
+.back-button{
+    float: right;
+}
+.create-item-header{
+    margin:25px;
+}

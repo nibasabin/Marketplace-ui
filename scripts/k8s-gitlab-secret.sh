@@ -1,0 +1,1 @@
+kubectl create secret docker-registry sabin-registry-credentials --docker-server=registry.galvanizelabs.net --docker-username=gitlab+deploy-token-74 --docker-password=n7aSsKyMza_3aQ2z9_dd --docker-email=sabin.bajracharya.vabqq9@statefarm.com

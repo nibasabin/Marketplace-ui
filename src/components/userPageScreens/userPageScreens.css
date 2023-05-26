@@ -1,0 +1,16 @@
+.user-dashboard-table th {
+    width:500px;
+    border:solid 1px;
+    background-color:#dddddd ;
+  }
+
+.user-dashboard-table td {
+    width:300px;
+    border:solid 1px;
+   margin-left: 10px;
+   text-align:center;
+    
+  }
+.user-dashboard-table{
+    border:solid 1px;
+}
